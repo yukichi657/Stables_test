@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  satble_number: MyString
+  name: MyString
+  photo: MyString
+
+two:
+  satble_number: MyString
+  name: MyString
+  photo: MyString

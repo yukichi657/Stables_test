@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Satble number:</strong>
+  <%= @stable.satble_number %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @stable.name %>
+</p>
+
+<p>
+  <strong>Photo:</strong>
+  <%= @stable.photo %>
+</p>
+
+<%= link_to 'Edit', edit_stable_path(@stable) %> |
+<%= link_to 'Back', stables_path %>

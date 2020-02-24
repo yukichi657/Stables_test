@@ -1,0 +1,12 @@
+rails generate scaffold モデル名 フィールド名1:データ型1 ...
+
+rails generate scaffold Stable satble_number:string name:string photo:string
+
+rails db:create (最初の一回のみ)
+rails db:migrate
+
+rails generate scaffold Profile name:string photo:string age:string sex:string medical_check:text
+
+rails g scaffold Vaccination name:string injected_at:datetime profile:references
+
+rails db:migrate
